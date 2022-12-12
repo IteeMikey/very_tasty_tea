@@ -5,6 +5,18 @@
     font-size: 20px;
 }
 
+/*Мобильные телефоны*/
+@media (max-width: 767px) { 
+
+}
+
+/*Десктопы*/
+@media (min-width: 1025px) { 
+
+}
+
+
+
 html{
     background-color: rgb(255, 219, 243);
 }
