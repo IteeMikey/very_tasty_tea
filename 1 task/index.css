@@ -24,9 +24,11 @@ header {
 .bigger_pics img{
     margin-right: 100px;
     margin-left: 100px;
+    border-radius: 3%;
     padding: 10px;
     text-align: center;
     background-color: rgba(255, 255, 255, 0.39);
+
 
 }
 
