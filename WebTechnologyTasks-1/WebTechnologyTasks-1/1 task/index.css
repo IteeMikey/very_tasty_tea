@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Century Gothic',sans-serif;
+    font-size: 20px;
+}
+
+html{
+    background-color: rgb(255, 219, 243);
+}
+
+header {
+    background-color: rgb(94, 221, 189);
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.menu li{
+    display: inline;
+    margin-right: 50px;
+}
+
+.bigger_pics img{
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 3%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.39);
+}
+
+.Name{
+    margin-left: 100px;
+    font-size: 40px;
+}
+
+.Text{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 25px;
+}
+
+section{
+    background-color: rgb(255, 219, 243);
+}
+
+
+
+.small_pics img{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.competencies{
+    margin-left: 100px;
+}
+
+h1{
+    margin-left: px;
+    color: rgb(94, 221, 189);
+}
+
+h2{
+    margin-left: 50px;
+    color: rgb(94, 221, 189);
+}
+
+h3{
+    margin-left: 50px;
+}
+
+
+footer{
+    background-color: rgb(94, 221, 189);
+    color: rgb(255, 255, 255);
+}
+
+.contacts {
+    margin-left: 50px;
+}
+
+.developed {
+    margin-left: 50px;
+}
