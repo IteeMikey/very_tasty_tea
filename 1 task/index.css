@@ -1,18 +1,97 @@
-* {
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Century Gothic',sans-serif;
-    font-size: 20px;
-}
-
 /*Мобильные телефоны*/
 @media (max-width: 767px) { 
+    * {
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Century Gothic',sans-serif;
+        font-size: 10px;
+    }
 
+    .Text{
+        margin-left: 50px;
+        margin-right: 50px;
+        font-size: 15px;
+    }
+
+    .menu li{
+        margin-left: 50px;
+        display:block;
+        margin-right: 50px;
+        text-align:left;
+    }
+
+    .Name{
+        margin-left: 50px;
+        font-size: 25px;
+    }
+
+    .bigger_pics img{
+        margin-right: 20px;
+        margin-left: 20px;
+        border-radius: 3%;
+        padding: 10px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.39);
+    }
+
+    .small_pics img{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .competencies li{
+        margin-left: -50px;
+        font-size: 15px;
+    }
+    .competencies h3{
+        margin-left: -50px;
+        font-size: 20px;
+    }
+    .competencies ol{
+        margin-bottom: 50px;
+    }
+    
 }
 
 /*Десктопы*/
 @media (min-width: 1025px) { 
+    * {
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Century Gothic',sans-serif;
+        font-size: 20px;
+    }
 
+    .Text{
+        margin-left: 100px;
+        margin-right: 100px;
+        font-size: 25px;
+    }
+
+    .menu li{
+        display: inline;
+        margin-right: 50px;
+    }
+
+    .Name{
+        margin-left: 100px;
+        font-size: 40px;
+    }
+    
+    .bigger_pics img{
+        margin-right: 100px;
+        margin-left: 100px;
+        border-radius: 3%;
+        padding: 10px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.39);
+        
+    }
+
+    .small_pics img{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
 }
 
 
@@ -23,47 +102,10 @@ html{
 
 header {
     background-color: rgb(94, 221, 189);
-    text-align: center;
-    font-size: 50px;
-}
-
-
-.menu li{
-    display: inline;
-    margin-right: 50px;
-}
-
-.bigger_pics img{
-    margin-right: 100px;
-    margin-left: 100px;
-    border-radius: 3%;
-    padding: 10px;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.39);
-
-
-}
-
-.Name{
-    margin-left: 100px;
-    font-size: 40px;
-}
-
-.Text{
-    margin-left: 100px;
-    margin-right: 100px;
-    font-size: 25px;
 }
 
 section{
     background-color: rgb(255, 219, 243);
-}
-
-
-
-.small_pics img{
-    margin-right: 50px;
-    margin-left: 50px;
 }
 
 .competencies{
