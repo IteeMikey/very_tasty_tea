@@ -22,12 +22,8 @@ header{
     height: 880px;
 }
 
-body{
-    background:rgb(25, 27, 41);
-    background-size: cover;
-    width: 100%;
-    height: 1600px;
-}
+
+
 .menu a{
     font-size: 20px;
     color: rgb(255, 255, 255);
@@ -52,18 +48,20 @@ body{
     margin-right: 100px;
 }
 .Text1{
+    color: rgb(255, 255, 255);
     font-size: 65px;
     text-align:center;
-    margin-bottom: -65px;
+    margin-bottom: 65px;
 }
 
 .Text2{
+    color: rgb(255, 255, 255);
     font-size: 65px;
     text-align:center;
     font-weight:bold;
 }
 
-.flex-container{
+.felix{
     margin-left: 200px;
     display: inline;    
 }
@@ -115,6 +113,15 @@ body{
 .pic1 img{
     margin-bottom: 20px;
 }
+.pic3 img{
+    margin-top: -20px;
+}
+
+.body1 p{
+    color:rgb(157, 159, 191);
+    font-size: 20px;
+    line-height: 12px;
+}
 
 .text10{
     color:rgb(255, 255, 255);
@@ -123,13 +130,147 @@ body{
     margin-top: -75px;
 }
 
-.ps1{
-    margin-left: 300px;
-    margin-top: -450px;
+.text20{
+    color:rgb(255, 255, 255);
+    font-size: 45px;
+    margin-left: 90px;
+    margin-top: -55px;
 }
 
-body p{
+.text30{
+    color:rgb(255, 255, 255);
+    font-size: 45px;
+    margin-left: 70px;
+    margin-top: -55px;
+}
+
+.text40{
+    color:rgb(255, 255, 255);
+    font-size: 45px;
+    margin-left: 70px;
+    margin-top: -55px;
+}
+
+.ps1{
+    margin-left: 300px;
+    margin-top: -500px;
+}
+
+.ps2{
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.ps3{
+    margin-left: 1300px;
+    margin-top: -420px;
+}
+
+.ps4{
+    margin-left: 1300px;
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+
+body{
+    
+    background:rgb(25, 27, 41);
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.body2{
+    background:rgb(255, 216, 0);
+    background-size: cover;
+    width: 100%;
+    height:  800px;
+}
+
+.name1{
+    color:rgb(25, 27, 41);
+    font-size: 35px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.name2{
+    color:rgb(25, 27, 41);
+    font-size: 35px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.name3{
+    color:rgb(25, 27, 41);
+    font-size: 35px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.name4{
+    color:rgb(25, 27, 41);
+    font-size: 35px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.team{
+    text-align: center;
+}
+
+.body2 p{
+    color:rgb(25, 27, 41);
+    font-size: 20px;
+    line-height: 12px;
+}
+
+.body1 p{
     color:rgb(157, 159, 191);
     font-size: 20px;
     line-height: 12px;
+}
+
+.first{
+    margin-top: 30px;
+    margin-right: 1000px;
+}
+
+.second{
+    margin-top: -353px;
+    margin-right: 350px;
+}
+
+.third{
+    margin-top: -353px;
+    margin-left: 350px;
+}
+
+.fourth{
+    margin-top: -356px;
+    margin-left: 1000px;
+}
+
+
+.words{
+    margin-top: 100px;
+}
+
+.meet{
+    margin-top: 100px;
+    text-align: center;
+    color:rgb(25, 27, 41);
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.make{
+    text-align: center;
+    color:rgb(25, 27, 41);
+    margin-top: -30px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 100px;
 }
