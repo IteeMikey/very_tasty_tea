@@ -10,11 +10,23 @@
     margin-left: 300px;
 }
 
+.phone{
+    margin-top: -150px;
+    text-align:center;
+}
+
 header{
     background: url("images/stars.png") no-repeat;
     background-size: cover;
     width: 100%;
     height: 880px;
+}
+
+body{
+    background:rgb(25, 27, 41);
+    background-size: cover;
+    width: 100%;
+    height: 1600px;
 }
 .menu a{
     font-size: 20px;
@@ -76,8 +88,6 @@ header{
     text-decoration-color: rgb(255, 255, 255);
     font-size: medium;
     font-weight: bold;
-
-
 }
 
 .Password{
@@ -100,4 +110,26 @@ header{
     border-style: none;
     font-size: medium;
     font-weight: bold;
+}
+
+.pic1 img{
+    margin-bottom: 20px;
+}
+
+.text10{
+    color:rgb(255, 255, 255);
+    font-size: 45px;
+    margin-left: 90px;
+    margin-top: -75px;
+}
+
+.ps1{
+    margin-left: 300px;
+    margin-top: -450px;
+}
+
+body p{
+    color:rgb(157, 159, 191);
+    font-size: 20px;
+    line-height: 12px;
 }
