@@ -1,0 +1,14 @@
+body * {
+    box-sizing: border-box;
+}
+.board {
+    width: 100vw;
+    height: 100vw;
+}
+.btn {
+    position: absolute;
+    transition: 0.5s; 
+
+    width: 100px;
+    height: 50 px;
+}
