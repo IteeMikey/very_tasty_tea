@@ -94,19 +94,11 @@
     }
 }
 
-
-
-html{
-    background-color: rgb(255, 219, 243);
-}
-
 header {
     background-color: rgb(94, 221, 189);
 }
 
-section{
-    background-color: rgb(255, 219, 243);
-}
+
 
 .competencies{
     margin-left: 100px;
@@ -119,13 +111,17 @@ h1{
 
 h2{
     margin-left: 50px;
-    color: rgb(94, 221, 189);
+    color: white;
+    font-size: 30px;
 }
 
 h3{
     margin-left: 50px;
 }
 
+form{
+    margin-left: 50px;
+}
 
 footer{
     background-color: rgb(94, 221, 189);
@@ -138,4 +134,18 @@ footer{
 
 .developed {
     margin-left: 50px;
+}
+
+.them{
+    margin-left: 50px;
+}
+
+.light {
+    color: black;
+    background-color: rgb(255, 219, 243);
+}
+
+.dark {
+    color: white;
+    background-color: gray;
 }
