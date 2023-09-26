@@ -1,0 +1,45 @@
+.object{
+    height: 45%;
+    width: 45%;
+    position: absolute;
+}
+
+#ob1 {
+    background: rgb(171, 171, 171);
+    left: 0px;
+    top: 0px;
+    
+}
+#ob2 {
+    background: rgb(99, 99, 99);
+    right: 27%;
+    top: 27%;
+}
+#ob3 {
+    background: rgb(78, 78, 78);
+    bottom: 0;
+    right: 0;
+}
+#ob4 {
+    background: rgb(35, 35, 35);
+    bottom: 0;
+    left: 0px;
+}
+#ob5 {
+    background: rgb(14, 14, 14);
+    top: 0;
+    right: 0px;
+}
+/* .str1 {
+    display: flex;
+    justify-content: space-between;
+}
+.str2 {
+    display: flex;
+    justify-content: center;
+}
+.str3 {
+    display: flex;
+    justify-content: space-between;
+} */
+
