@@ -1,3 +1,11 @@
+.object{
+    height: 70%;
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+
 #obj1 {
     background: rgb(223, 26, 26);
     height: 100%;
@@ -5,50 +13,24 @@
     position: absolute;
     left: 0px;
     top: 0px;
-    
 }
 
 #obj2 {
     background: rgb(236, 82, 22);
-    height: 70%;
-    width: 70%;
-    position: absolute;
-    left: 15%;
-    top: 15%;
 }
 
 #obj3 {
     background: rgb(241, 128, 21);
-    height: 70%;
-    width: 70%;
-    position: absolute;
-    left: 15%;
-    top: 15%;
 }
 
 #obj4 {
     background: rgb(247, 174, 16);
-    height: 70%;
-    width: 70%;
-    position: absolute;
-    left: 15%;
-    top: 15%;
 }
 
 #obj5 {
     background: rgb(255, 195, 85);
-    height: 70%;
-    width: 70%;
-    position: absolute;
-    left: 15%;
-    top: 15%;
 }
 
 #obj6 {
     background: rgb(255, 255, 255);
-    height: 70%;
-    width: 70%;
-    position: absolute;
-    left: 15%;
-    top: 15%;
 }
