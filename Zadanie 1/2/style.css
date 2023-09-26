@@ -1,4 +1,4 @@
-#kv1 {
+#obj1 {
     background: rgb(22, 22, 22);
     height: 100%;
     width: 100%;
@@ -7,7 +7,8 @@
     top: 0px;
     
 }
-#kv2 {
+
+#obj2 {
     background: rgb(67, 67, 67);
     height: 70%;
     width: 70%;
@@ -15,7 +16,8 @@
     left: 15%;
     top: 15%;
 }
-#kv3 {
+
+#obj3 {
     background: rgb(104, 104, 104);
     height: 70%;
     width: 70%;
@@ -23,7 +25,8 @@
     left: 15%;
     top: 15%;
 }
-div#kv4 {
+
+#obj4 {
     background: rgb(150, 150, 150);
     height: 70%;
     width: 70%;
@@ -31,7 +34,8 @@ div#kv4 {
     left: 15%;
     top: 15%;
 }
-div#kv5 {
+
+#obj5 {
     background: rgb(207, 207, 207);
     height: 70%;
     width: 70%;
@@ -39,7 +43,8 @@ div#kv5 {
     left: 15%;
     top: 15%;
 }
-div#kv6 {
+
+#obj6 {
     background: rgb(255, 255, 255);
     height: 70%;
     width: 70%;
