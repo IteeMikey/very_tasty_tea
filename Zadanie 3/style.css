@@ -14,12 +14,23 @@ img.logo{
     margin-right: auto;
 }
 
+nav{
+    background-color: #b28139;
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 20%;
+}
+
 nav ul{
     text-align: center;
 
 }
 
 nav li{
+    color: #ffff;
+    font-family: 'Arial';
+    font-size: 21px;
     display: inline;
     margin: 0 20px;
 }
