@@ -14,6 +14,14 @@ img.logo{
     margin-right: auto;
 }
 
+nav{
+    background-color: #b28139;
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: 20%;
+}
+
 nav ul{
     font-family: "Arial";
     text-align: center;
@@ -22,6 +30,9 @@ nav ul{
 }
 
 nav li{
+    color: #ffff;
+    font-family: 'Arial';
+    font-size: 21px;
     display: inline;
     vertical-align:bottom;
     margin: 0 10px;
