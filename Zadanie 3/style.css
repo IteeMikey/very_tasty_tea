@@ -15,12 +15,52 @@ img.logo{
 }
 
 nav ul{
+    font-family: "Arial";
     text-align: center;
-
+    font-size: 35px;
+    color: white;
 }
 
 nav li{
     display: inline;
-    margin: 0 20px;
+    vertical-align:bottom;
+    margin: 0 10px;
+    line-height: 100px;
 }
 
+nav{
+    margin-left: 5%;
+    margin-right: 5%;
+    background:rgb(178, 125, 47);
+    background-size: cover;
+    height: 100px;
+}
+
+.Zag1{
+    font-weight: lighter;
+    font-family: "Georgia";
+    font-style:italic;
+    font-size: 40px;
+    color: rgb(80,55,43)
+}
+
+.Block{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+}
+
+#art{
+    height: 100%;
+    width:auto;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Text1{
+    font-family: "Arial";
+    font-style:normal;
+    color: rgb(121,121,121);
+    font-size: 20px;
+}
