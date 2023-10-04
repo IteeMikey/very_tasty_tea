@@ -14,14 +14,6 @@ img.logo{
     margin-right: auto;
 }
 
-nav{
-    background-color: #b28139;
-    width: 100%;
-    height: 100%;
-    margin-left: 5%;
-    margin-right: 20%;
-}
-
 nav ul{
     font-family: "Arial";
     text-align: center;
@@ -32,46 +24,55 @@ nav ul{
 nav li{
     color: #ffff;
     font-family: 'Arial';
-    font-size: 21px;
+    font-size: 35px;
     display: inline;
     vertical-align:bottom;
-    margin: 0 10px;
+    margin:10px;
     line-height: 100px;
+
 }
 
 nav{
+    margin-bottom: 0px;
     margin-left: 5%;
     margin-right: 5%;
     background:rgb(178, 125, 47);
     background-size: cover;
     height: 100px;
+    width:auto;
 }
 
 .Zag1{
     font-weight: lighter;
     font-family: "Georgia";
     font-style:italic;
-    font-size: 40px;
+    font-size: 50px;
     color: rgb(80,55,43)
-}
-
-.Block{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction:row;
 }
 
 #art{
     height: 100%;
     width:auto;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
 }
 
 .Text1{
     font-family: "Arial";
     font-style:normal;
     color: rgb(121,121,121);
-    font-size: 20px;
+    font-size: 25px;
+    width: 90%;
+    line-height: 29px;
+}
+
+.section1{
+    display: flex;
+    background-color: rgb(237, 237, 237);
+}
+
+.img1{
+    margin-top: 50px;
+    margin-right: 5%;
+    height: 400px;
+    width: 700px;
 }
