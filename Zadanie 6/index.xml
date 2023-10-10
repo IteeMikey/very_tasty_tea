@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<garage>
+    <auto>
+        <brand>Lada</brand>
+        <model>Kalina</model>
+    </auto>
+    <auto>
+        <brand>Volvo</brand>
+        <model>S40</model>
+    </auto>
+</garage>
