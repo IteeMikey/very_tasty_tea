@@ -54,6 +54,7 @@ nav{
     height: 100%;
     width:auto;
     margin-left: 5%;
+    margin-bottom: 20px;
 }
 
 .Text1{
@@ -68,6 +69,7 @@ nav{
 .section1{
     display: flex;
     background-color: rgb(237, 237, 237);
+    
 }
 
 .img1{
@@ -75,4 +77,18 @@ nav{
     margin-right: 5%;
     height: 400px;
     width: 700px;
+}
+
+.section2{
+    
+    background-color: rgb(237, 237, 237);
+    
+}
+
+.bc{
+    border-top: 5px solid rgb(178, 178, 178);
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
 }
