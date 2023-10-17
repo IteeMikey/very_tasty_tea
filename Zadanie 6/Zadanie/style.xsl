@@ -3,21 +3,15 @@
 <xsl:output method="html"/>
 <xsl:template match="/">
 
-
-
 <html>
-<head><title>XSL sample</title></head>
+<head><title>Bash im</title></head>
 <body>
-<xsl:for-each select="/garage/auto">
-    <h1><xsl:value-of select="brand"/></h1>
-    <xsl:if test="brand='Volvo'">
-        <p><xsl:value-of select="model"/></p>
-    </xsl:if>
+<xsl:for-each select="/rss/channel/item">
+    <h1><xsl:value-of select="title"/></h1>
+    <p><xsl:value-of select="description"/></p>
 </xsl:for-each>
 </body>
 </html>
-
-
 
 </xsl:template>
 </xsl:stylesheet>
