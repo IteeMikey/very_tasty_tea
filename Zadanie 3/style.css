@@ -50,6 +50,14 @@ nav{
     color: rgb(80,55,43)
 }
 
+.Zag2{
+    font-weight: lighter;
+    font-family: "Georgia";
+    font-style:italic;
+    font-size: 50px;
+    color: rgb(106, 106, 106)
+}
+
 #art{
     height: 100%;
     width:auto;
@@ -67,6 +75,7 @@ nav{
 }
 
 .section1{
+    border-bottom: 20px solid rgb(237, 237, 237);
     display: flex;
     background-color: rgb(237, 237, 237);
     
@@ -89,4 +98,24 @@ nav{
     flex-direction: row;
     margin-left: 5%;
     margin-right: 5%;
+}
+
+.Ending{
+    margin-right: 5%;
+    border-top: 15px solid rgb(178, 178, 178);
+    margin-left: 5%;
+    border-bottom: 15px solid rgb(237, 237, 237);
+}
+
+footer{
+    background-color: rgb(237, 237, 237);
+}
+
+.Text2{
+    font-family: "Arial";
+    font-style:normal;
+    color: rgb(160,160,160);
+    font-size: 25px;
+    width: 90%;
+    line-height: 29px;
 }
