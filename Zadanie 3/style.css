@@ -19,6 +19,7 @@ nav ul{
     text-align: center;
     font-size: 35px;
     color: white;
+    
 }
 
 nav li{
@@ -29,14 +30,17 @@ nav li{
     vertical-align:bottom;
     margin:10px;
     line-height: 100px;
+    
 
 }
 
 nav{
-    margin-bottom: 0px;
+    position: relative;
+    margin-bottom: -20px;
     margin-left: 5%;
     margin-right: 5%;
     background:rgb(178, 125, 47);
+    background: linear-gradient(180deg, rgba(178,120,67,1), rgba(178,120,35,1) );
     background-size: cover;
     height: 100px;
     width:auto;
@@ -75,6 +79,7 @@ nav{
 }
 
 .section1{
+    background: linear-gradient(180deg, rgba(0,0,0,0.11200976972820376) 0%, rgba(255,255,255,0) 54%);
     border-bottom: 20px solid rgb(237, 237, 237);
     display: flex;
     background-color: rgb(237, 237, 237);
@@ -93,7 +98,7 @@ nav{
 }
 
 .bc{
-    border-top: 5px solid rgb(178, 178, 178);
+    border-top: 2px solid rgb(178, 178, 178);
     display: flex;
     flex-direction: row;
     margin-left: 5%;
