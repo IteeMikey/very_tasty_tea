@@ -22,12 +22,15 @@
     }
 
     .Logo2{
+        margin-left: 180px;
+        margin-right: 230px;
         margin-top: -80px;
-        margin-left: 320px;
-        margin-right: 355px;
+        position: relative;
         display:flex;
         flex-direction: row;
-        text-align: center;
+        flex-wrap: wrap;
+        gap: 220px;
+        justify-content: center;
     }
 
     .logoText{
@@ -43,7 +46,6 @@
         font-style:normal;
         color: rgb(160,160,160);
         font-size: 28px;
-        width: 90%;
     }
 
 /* BODY */
