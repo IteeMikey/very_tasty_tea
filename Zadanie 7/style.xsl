@@ -49,6 +49,7 @@
                 <span class="date"><xsl:value-of select="Date"/></span>
                 <div class="programs">
                     <xsl:for-each select="//Event[Date=current()/Date]">
+                    <xsl:sort select="Start" order="descending"/>
                         <div class="program">
                             <xsl:value-of select="Start"/>
                             <xsl:text> </xsl:text>
