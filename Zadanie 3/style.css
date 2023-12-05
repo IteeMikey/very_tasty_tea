@@ -19,11 +19,10 @@
         flex-wrap: wrap;
         gap: 90px;
         justify-content: center;
+        
     }
 
     .Logo2{
-        margin-left: 180px;
-        margin-right: 230px;
         margin-top: -80px;
         position: relative;
         display:flex;
@@ -54,7 +53,93 @@
         padding: 15px;
         background: linear-gradient(180deg, rgba(178,120,67,1), rgba(178,120,35,1) );
     }
+    .section1{
+        background: linear-gradient(180deg, rgba(0,0,0,0.11200976972820376) 0%, rgba(255,255,255,0) 54%);
+        border-bottom: 20px solid rgb(255,255,255);
+        display: flex;
+    }
+    .img1{
+        margin-top: 50px;
+        margin-right: 5%;
+        height: 400px;
+        width: 700px;
+    }
+    #art{
+        height: 100%;
+        width:auto;
+        margin-left: 5%;
+        margin-bottom: 20px;
+    }
+}   
+
+@media screen and (min-width: 900px) and (max-width: 1030px){
+    /* Ваши стили для больших экранов */
+
+    /* HEADER */
+    #AA{
+        display: none;
+    }
+
+    #BB{
+        display: none;
+    }
+
+    .Logo1{
+        margin-left: 80px;
+        margin-top: -260px;
+        position: relative;
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 90px;
+        justify-content: center;
+        
+    }
+
+    .Logo2{
+        display: none;
+    }
+
+    /* NAV */
+    nav li{
+        color: #ffff;
+        font-family: 'Arial';
+        font-size: 25px;
+        display: inline;
+        vertical-align:bottom;
+        margin:10px;
+    }
+
+    nav{
+        position: relative;
+        margin-bottom: -20px;
+        margin-left: 5%;
+        margin-right: 5%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 15px;
+        background: linear-gradient(180deg, rgba(178,120,67,1), rgba(178,120,35,1) );
+    }
+    .section1{
+        margin-top: 50px;
+        background: linear-gradient(180deg, rgba(0,0,0,0.11200976972820376) 0%, rgba(255,255,255,0) 54%);
+        border-bottom: 20px solid rgb(255,255,255);
+        display: flex;
+    }
+    .img1{
+        margin-left: 5%;
+        height: 400px;
+        width: 700px;
+    }
+    #art{
+        height: 100%;
+        width:auto;
+        margin-left: 5%;
+        margin-bottom: 20px;
+    }
 }
+
 
 @media screen and (min-width: 480px) and (max-width: 900px) {
     /* Ваши стили для планшетов и настольных компьютеров */
@@ -83,13 +168,7 @@
     }
 
     .Logo2{
-        margin-top: -80px;
-        position: relative;
-        display:flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 220px;
-        justify-content: center;
+        display: none;
     }
 
     /* NAV */
@@ -100,7 +179,6 @@
         display: inline;
         vertical-align:bottom;
         margin:10px;
-        line-height: 100px;
     }
 
     nav{
@@ -108,11 +186,27 @@
         margin-bottom: -20px;
         margin-left: 5%;
         margin-right: 5%;
-        background:rgb(178, 125, 47);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 15px;
         background: linear-gradient(180deg, rgba(178,120,67,1), rgba(178,120,35,1) );
-        background-size: cover;
-        height: 100px;
+    }
+    .section1{
+        background: linear-gradient(180deg, rgba(0,0,0,0.11200976972820376) 0%, rgba(255,255,255,0) 54%);
+        border-bottom: 20px solid rgb(255,255,255);
+        display:block;
+    }
+    .img1{
+        margin-left: 5%;
+        height: 400px;
+        width: 700px;
+    }
+    #art{
+        height: 100%;
         width:auto;
+        margin-left: 5%;
+        margin-bottom: 20px;
     }
 }
 
@@ -158,11 +252,10 @@
     nav li{
         color: #ffff;
         font-family: 'Arial';
-        font-size: 20px;
+        font-size: 16px;
         display: inline;
         vertical-align:bottom;
         margin:10px;
-        line-height: 100px;
     }
 
     nav{
@@ -174,6 +267,24 @@
         justify-content: space-around;
         align-items: center;
         padding: 15px;
+        background: linear-gradient(180deg, rgba(178,120,67,1), rgba(178,120,35,1) );
+    }
+    .section1{
+        background: linear-gradient(180deg, rgba(0,0,0,0.11200976972820376) 0%, rgba(255,255,255,0) 54%);
+        border-bottom: 20px solid rgb(255,255,255);
+        display:block;
+    }
+    .img1{
+        margin-top: 50px;
+        margin-left: 5%;
+        height: 400px;
+        width: 700px;
+    }
+    #art{
+        height: 100%;
+        width:auto;
+        margin-left: 5%;
+        margin-bottom: 20px;
     }
 }
 
@@ -241,25 +352,11 @@
         color: rgb(80,55,43)
     }
 
-    #art{
-        height: 100%;
-        width:auto;
-        margin-left: 5%;
-        margin-bottom: 20px;
-    }
 
-    .section1{
-        background: linear-gradient(180deg, rgba(0,0,0,0.11200976972820376) 0%, rgba(255,255,255,0) 54%);
-        border-bottom: 20px solid rgb(255,255,255);
-        display: flex;
-    }
 
-    .img1{
-        margin-top: 50px;
-        margin-right: 5%;
-        height: 400px;
-        width: 700px;
-    }
+
+
+
 
     .bc{
         border-top: 2px solid rgb(178, 178, 178);

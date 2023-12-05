@@ -41,9 +41,11 @@
             }
         </style>
         <body>
+
             <h1>Телепрограмма</h1>
             
             <xsl:for-each select="TVGrid/Event[not(preceding-sibling::Event/Date=Date)]">
+                <xsl:sort select="Date" order="descending"/>
                 <span class="date"><xsl:value-of select="Date"/></span>
                 <div class="programs">
                     <xsl:for-each select="//Event[Date=current()/Date]">
