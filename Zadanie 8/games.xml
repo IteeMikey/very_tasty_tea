@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<?xml-stylesheet type="text/xsl" href="games_style.xsl"?>
 <!--
 =========================================
 	Краткое описание выгружаемых данных.
@@ -110,8 +110,7 @@
 			Высота swf-файла с игрой
 		- Embed
 			HTML-код тега embed для вставки игры на страницу
--->
-<ALAWAR_EXPORT>
+--><ALAWAR_EXPORT>
 	<Options />
 	<Languages>
 		<Language Code="ru">
