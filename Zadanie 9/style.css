@@ -1,0 +1,27 @@
+body
+{
+background-color: rgb(238, 165, 227);
+}
+
+h1
+{
+    color: rgb(224, 31, 31);
+}
+.links {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+.links li {
+    font-size: 30px;
+    list-style-type: none;
+    color:rgb(128, 7, 134);
+}
+
+.border {
+    width: 100%;
+    margin: 20px auto;
+}
+

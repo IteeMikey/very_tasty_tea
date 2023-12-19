@@ -204,7 +204,7 @@
         font-size: 40px;
     }
     .bc{
-        flex-direction:row;
+        flex-direction:column;
     }
     .Zag2{
         font-size: 50px;
@@ -289,6 +289,11 @@
     .Text2{
         font-size: 15px;
     }
+    article{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
@@ -345,11 +350,19 @@
     
 
 /* SECTION*/
-    .Text1{
+    .Text10{
         font-family: "Arial";
         font-style:normal;
         color: rgb(121,121,121);
         width: 90%;
+        line-height: 29px;
+    }
+
+    .Text1{
+        font-family: "Arial";
+        font-style:normal;
+        color: rgb(121,121,121);
+        width: 100%;
         line-height: 29px;
     }
     .Zag1{
